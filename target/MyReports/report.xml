@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="6" time="229.247">
+<testcase classname="Check all the functionality of Cucumber" name="check facebook login functionality" time="25.205">
+<system-out><![CDATA[Given user is on facebook page..............................................passed
+When user enter username....................................................passed
+And user enter password.....................................................passed
+Then click on login button..................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check all the functionality of Cucumber" name="Login Fail possible combinations" time="36.796">
+<system-out><![CDATA[Given user is on facebook page..............................................passed
+When user enter username as "sonali"........................................passed
+And user enter password as "sonu1234".......................................passed
+Then click on login button..................................................passed
+But the login failed........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check all the functionality of Cucumber" name="Login Fail possible combinations 2" time="30.81">
+<system-out><![CDATA[Given user is on facebook page..............................................passed
+When user enter username as "mama"..........................................passed
+And user enter password as "mama1234".......................................passed
+Then click on login button..................................................passed
+But the login failed........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check all the functionality of Cucumber" name="Login Fail possible combinations 3" time="69.514">
+<system-out><![CDATA[Given user is on facebook page..............................................passed
+When user enter username as "soma"..........................................passed
+And user enter password as "soma1234".......................................passed
+Then click on login button..................................................passed
+But the login failed........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check all the functionality of Cucumber" name="Data table asList:Check the   new user registration successfull after giving the correct details" time="24.468">
+<system-out><![CDATA[Given user is on facebook page..............................................passed
+Given User is on registration page..........................................passed
+When User enters following detials..........................................passed
+Then User registration should be successfull................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check all the functionality of Cucumber" name="Datat table asMap: User Registration with different data with columns" time="41.669">
+<system-out><![CDATA[Given user is on facebook page..............................................passed
+Given User is on registration page..........................................passed
+When User enters following detials with columns.............................passed
+Then User registration should be successfull................................passed
+]]></system-out>
+</testcase>
+</testsuite>
